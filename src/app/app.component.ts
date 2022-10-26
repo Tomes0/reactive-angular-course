@@ -1,4 +1,6 @@
+import { HttpClient } from '@angular/common/http';
 import {Component, OnInit} from '@angular/core';
+import { Course } from './model/course';
 
 
 
@@ -14,8 +16,6 @@ export class AppComponent implements  OnInit {
     }
 
     ngOnInit() {
-
-
     }
 
   logout() {
